@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
@@ -440,6 +440,614 @@ namespace ConsoleApp1
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
                     mSpe = 110 + stat;
                     break;
+                case 27:
+                    mName = "Sandshrew";
+                    mType = "ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 3); stat += strat; }
+                    mMHP = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 20 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 40 + stat;
+                    break;
+                case 28:
+                    mName = "Sandslash";
+                    mType = "ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 65 + stat;
+                    break;
+                case 29:
+                    mName = "Nidoran (f)";
+                    mType = "poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mMHP = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 47 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 52 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 41 + stat;
+                    break;
+                case 30:
+                    mName = "Nidorina";
+                    mType = "poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 62 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 67 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 56 + stat;
+                    break;
+                case 31:
+                    mName = "Nidoqueen";
+                    mType = "poison/ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 92 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 87 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 76 + stat;
+                    break;
+                case 32:
+                    mName = "Nidoran (M)";
+                    mType = "Poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 46 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 57 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 50 + stat;
+                    break;
+                case 33:
+                    mName = "Nidorino";
+                    mType = "poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 61 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 72 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 57 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 65 + stat;
+                    break;
+                case 34:
+                    mName = "Nidoking";
+                    mType = "poison/ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 81 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 102 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 77 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 85 + stat;
+                    break;
+                case 35:
+                    mName = "Clefairy";
+                    mType = "fairy";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 35 + stat;
+                    break;
+                case 36:
+                    mName = "Clefable";
+                    mType = "fairy";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 73 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 60 + stat;
+                    break;
+                case 37:
+                    mName = "Vulpix";
+                    mType = "fire";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 38 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 41 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 65 + stat;
+                    break;
+                case 38:
+                    mName = "Ninetales";
+                    mType = "fire";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 73 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 76 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 81 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 100 + stat;
+                    break;
+                case 39:
+                    mName = "jigglypuff";
+                    mType = "normal/fairy";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mMHP = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mDef = 20 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 20 + stat;
+                    break;
+                case 40:
+                    mName = "Wigglytuff";
+                    mType = "normal/psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(4, 6); stat += strat; }
+                    mMHP = 140 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 45 + stat;
+                    break;
+                case 41:
+                    mName = "Zubat";
+                    mType = "poison/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 42:
+                    mName = "Golbat";
+                    mType = "poison/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 43:
+                    mName = "Oddish";
+                    mType = "grass/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 30 + stat;
+                    break;
+                case 44:
+                    mName = "Gloom";
+                    mType = "grass/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 40 + stat;
+                    break;
+                case 45:
+                    mName = "Vileplume";
+                    mType = "grass/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 50 + stat;
+                    break;
+                case 46:
+                    mName = "Paras";
+                    mType = "bug/grass";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 25 + stat;
+                    break;
+                case 47:
+                    mName = "Parasect";
+                    mType = "bug/grass";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 30 + stat;
+                    break;
+                case 48:
+                    mName = "Venonat";
+                    mType = "bug/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 45 + stat;
+                    break;
+                case 49:
+                    mName = "Venomoth";
+                    mType = "bug/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 50:
+                    mName = "Diglett";
+                    mType = "ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 10 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mDef = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 95 + stat;
+                    break;
+                case 51:
+                    mName = "Dugtrio";
+                    mType = "ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 120 + stat;
+                    break;
+                case 52:
+                    mName = "Meowth";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(9, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 53:
+                    mName = "Persian";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 115 + stat;
+                    break;
+                case 54:
+                    mName = "Psyduck";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 52 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 55:
+                    mName = "Golduck";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 82 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 78 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 85 + stat;
+                    break;
+                case 56:
+                    mName = "Mankey";
+                    mType = "figthing";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 57:
+                    mName = "Primape";
+                    mType = "fighting";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 95 + stat;
+                    break;
+                case 58:
+                    mName = "Growlithe";
+                    mType = "fire/normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 59:
+                    mName = "Arcanine";
+                    mType = "fire";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 95 + stat;
+                    break;
+                case 60:
+                    mName = "Poliwag";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 61:
+                    mName = "Poliwhirl";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 62:
+                    mName = "Poliwrath";
+                    mType = "water/fighting";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 63:
+                    mName = "Abra";
+                    mType = "psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 20 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 15 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 64:
+                    mName = "Kadabra";
+                    mType = "psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 120 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 105 + stat;
+                    break;
                 case 65:
                     mName = "Alakazam";
                     mType = "psychic";
@@ -455,6 +1063,454 @@ namespace ConsoleApp1
                     mSDef = 95 + stat;
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
                     mSpe = 120 + stat;
+                    break;
+                case 66:
+                    mName = "Machop";
+                    mType = "fighting";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 35 + stat;
+                    break;
+                case 67:
+                    mName = "Machoke";
+                    mType = "fighting";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 45 + stat;
+                    break;
+                case 68:
+                    mName = "Machamp";
+                    mType = "fighting";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 130 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 69:
+                    mName = "Bellsprout";
+                    mType = "grass/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 40 + stat;
+                    break;
+                case 70:
+                    mName = "Weepinbell";
+                    mType = "poison/grass";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 71:
+                    mName = "Victrebell";
+                    mType = "grass/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 72:
+                    mName = "Tentacool";
+                    mType = "water/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0,3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0,3); stat += strat; }
+                    mAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0,2); stat += strat; }
+                    mDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1,3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2,5); stat += strat; }
+                    mSDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2,4); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 73:
+                    mName = "Tentacruel";
+                    mType = "water/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 120 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 100 + stat;
+                    break;
+                case 74:
+                    mName = "Geodude";
+                    mType = "rock/ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 20 + stat;
+                    break;
+                case 75:
+                    mName = "Graveler";
+                    mType = "rock/ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 35 + stat;
+                    break;
+                case 76:
+                    mName = "Golem";
+                    mType = "rock/ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 120 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 130 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 45 + stat;
+                    break;
+                case 77:
+                    mName = "Ponyta";
+                    mType = "fire";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 78:
+                    mName = "Rapidash";
+                    mType = "fire";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 105 + stat;
+                    break;
+                case 79:
+                    mName = "Slowpoke";
+                    mType = "water/psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 1); stat += strat; }
+                    mSpe = 15 + stat;
+                    break;
+                case 80:
+                    mName = "Slowbro";
+                    mType = "water/psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 30 + stat;
+                    break;
+                case 81:
+                    mName = "Magnemite";
+                    mType = "electric/steel";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 45 + stat;
+                    break;
+                case 82:
+                    mName = "Magneton";
+                    mType = "electric/steel";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 120 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 83:
+                    mName = "Farfetch'd";
+                    mType = "normal/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 52 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 58 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 62 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 60 + stat;
+                    break;
+                case 84:
+                    mName = "Doduo";
+                    mType = "normal/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 75 + stat;
+                    break;
+                case 85:
+                    mName = "Dodrio";
+                    mType = "normal/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSpe = 110 + stat;
+                    break;
+                case 86:
+                    mName = "Seal";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 45 + stat;
+                    break;
+                case 87:
+                    mName = "Dewgong";
+                    mType = "water/ice";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 88:
+                    mName = "Grimer";
+                    mType = "poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 25 + stat;
+                    break;
+                case 89:
+                    mName = "Muk";
+                    mType = "poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mMHP = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 50 + stat;
+                    break;
+                case 90:
+                    mName = "Shellder";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 40 + stat;
+                    break;
+                case 91:
+                    mName = "Cloyster";
+                    mType = "water/ice";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(4, 6); stat += strat; }
+                    mDef = 180 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 92:
+                    mName = "Gastly";
+                    mType = "ghost/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 80 + stat;
+                    break;
+                case 93:
+                    mName = "Haunter";
+                    mType = "ghost/poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSpe = 95 + stat;
                     break;
                 case 94:
                     mName = "Gengar";
@@ -488,6 +1544,134 @@ namespace ConsoleApp1
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
                     mSpe = 70 + stat;
                     break;
+                case 96:
+                    mName = "Drowzee";
+                    mType = "psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 43 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 42 + stat;
+                    break;
+                case 97:
+                    mName = "Hypno";
+                    mType = "Psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 73 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 73 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 67 + stat;
+                    break;
+                case 98:
+                    mName = "Krabby";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mMHP = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 50 + stat;
+                    break;
+                case 99:
+                    mName = "Kingler";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 130 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSpe = 75 + stat;
+                    break;
+                case 100:
+                    mName = "Voltorb";
+                    mType = "electric";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mAtk = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSpe = 100 + stat;
+                    break;
+                case 101:
+                    mName = "Electrode";
+                    mType = "electric";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 150 + stat;
+                    break;
+                case 102:
+                    mName = "Exeggcute";
+                    mType = "grass/psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 40 + stat;
+                    break;
+                case 103:
+                    mName = "Exeggutor";
+                    mType = "grass/psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
                 case 104:
                     mName = "Cubone";
                     mType = "ground";
@@ -504,6 +1688,38 @@ namespace ConsoleApp1
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
                     mSpe = 35 + stat;
                     break;
+                case 105:
+                    mName = "Marowak";
+                    mType = "ground";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 45 + stat;
+                    break;
+                case 106:
+                    mName = "Hitmonlee";
+                    mType = "fighting";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 120 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 53 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSDef = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 87 + stat;
+                    break;
                 case 107:
                     mName = "Hitmonchan";
                     mType = "fighting";
@@ -519,6 +1735,54 @@ namespace ConsoleApp1
                     mSDef = 110 + stat;
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
                     mSpe = 76 + stat;
+                    break;
+                case 108:
+                    mName = "Lickitung";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 30 + stat;
+                    break;
+                case 109:
+                    mName = "Koffing";
+                    mType = "poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 35 + stat;
+                    break;
+                case 110:
+                    mName = "Weezing";
+                    mType = "poison";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 120 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 60 + stat;
                     break;
                 case 111:
                     mName = "Rhyhorn";
@@ -568,6 +1832,150 @@ namespace ConsoleApp1
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
                     mSpe = 50 + stat;
                     break;
+                case 114:
+                    mName = "Tangela";
+                    mType = "grass";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 60 + stat;
+                    break;
+                case 115:
+                    mName = "Kangaskhan";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mMHP = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 116:
+                    mName = "Horsea";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 25 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 60 + stat;
+                    break;
+                case 117:
+                    mName = "Seadra";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 85 + stat;
+                    break;
+                case 118:
+                    mName = "Goldeen";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 47 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSAtk = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 63 + stat;
+                    break;
+                case 119:
+                    mName = "Seaking";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 92 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 68 + stat;
+                    break;
+                case 120:
+                    mName = "Staryu";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 85 + stat;
+                    break;
+                case 121:
+                    mName = "Starmie";
+                    mType = "water/psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mAtk = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 115 + stat;
+                    break;
+                case 122:
+                    mName = "Mr. Mime";
+                    mType = "psychic/fairy";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSDef = 120 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
                 case 123:
                     mName = "Scyther";
                     mType = "bug/flying";
@@ -600,6 +2008,376 @@ namespace ConsoleApp1
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
                     mSpe = 60 + stat;
                     break;
+                case 124:
+                    mName = "Jynx";
+                    mType = "Ice";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mDef = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSpe = 95 + stat;
+                    break;
+                case 125:
+                    mName = "Electabuzz";
+                    mType = "electric";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 83 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 57 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 3); stat += strat; }
+                    mSDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 105 + stat;
+                    break;
+                case 126:
+                    mName = "Magmar";
+                    mType = "fire";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 57 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSpe = 93 + stat;
+                    break;
+                case 127:
+                    mName = "Pinsir";
+                    mType = "bug";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 85 + stat;
+                    break;
+                case 128:
+                    mName = "Tauros";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 110 + stat;
+                    break;
+                case 129:
+                    mName = "Magikarp";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 2); stat += strat; }
+                    mMHP = 20 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 1); stat += strat; }
+                    mAtk = 10 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 1); stat += strat; }
+                    mSAtk = 15 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSDef = 20 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 80 + stat;
+                    break;
+                case 130:
+                    mName = "Gyarados";
+                    mType = "water/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mMHP = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 79 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 81 + stat;
+                    break;
+
+                case 132:
+                    mName = "Ditto";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 48 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 48 + stat;
+                    break;
+                case 133:
+                    mName = "Eevee";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 134:
+                    mName = "Vaporeon";
+                    mType = "water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mMHP = 130 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 65 + stat;
+                    break;
+                case 135:
+                    mName = "Jolteon";
+                    mType = "electric";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 130 + stat;
+                    break;
+                case 136:
+                    mName = "Flareon";
+                    mType = "fire";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 130 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSDef = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 65 + stat;
+                    break;
+                case 137:
+                    mName = "Porygon";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 70 + stat;
+                    break;
+                case 138:
+                    mName = "Omanyte";
+                    mType = "rock/water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 35 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mAtk = 40 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSpe = 35 + stat;
+                    break;
+                case 139:
+                    mName = "Omastar";
+                    mType = "rock/water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mDef = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 140:
+                    mName = "Kabuto";
+                    mType = "rock/water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 30 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 55 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 55 + stat;
+                    break;
+                case 141:
+                    mName = "Kabutops";
+                    mType = "rock/water";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 115 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 70 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 80 + stat;
+                    break;
+                case 142:
+                    mName = "Aerodactyl";
+                    mType = "rock/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 80 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mAtk = 105 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 60 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 75 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 130 + stat;
+                    break;
+                case 143:
+                    mName = "Snorlax";
+                    mType = "normal";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 6); stat += strat; }
+                    mMHP = 160 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mDef = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSAtk = 65 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 2); stat += strat; }
+                    mSpe = 30 + stat;
+                    break;
+                case 144:
+                    mName = "Articuno";
+                    mType = "ice/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSDef = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 95 + stat;
+                    break;
+                case 145:
+                    mName = "Zapdos";
+                    mType = "electric/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSAtk = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSpe = 100 + stat;
+                    break;
+                case 146:
+                    mName = "Moltres";
+                    mType = "fire/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSAtk = 125 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 4); stat += strat; }
+                    mSDef = 85 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 90 + stat;
+                    break;
+                case 147:
+                    mName = "Dratini";
+                    mType = "dragon";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mMHP = 41 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mAtk = 64 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(0, 3); stat += strat; }
+                    mDef = 45 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSAtk = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSDef = 50 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mSpe = 50 + stat;
+                    break;
+
                 case 148:
                     mName = "Dragonair";
                     mType = "dragon";
@@ -616,6 +2394,39 @@ namespace ConsoleApp1
                     for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
                     mSpe = 70 + stat;
                     break;
+                case 149:
+                    mName = "Dragonite";
+                    mType = "dragon/flying";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mMHP = 91 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 134 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(1, 3); stat += strat; }
+                    mDef = 95 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSAtk = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSDef = 100 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mSpe = 80 + stat;
+                    break;
+                case 150:
+                    mName = "Mewto";
+                    mType = "psychic";
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mMHP = 106 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mAtk = 110 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 4); stat += strat; }
+                    mDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 6); stat += strat; }
+                    mSAtk = 154 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(2, 5); stat += strat; }
+                    mSDef = 90 + stat;
+                    for (int x = 1; x <= lvl; x++) { strat = rng.Next(3, 5); stat += strat; }
+                    mSpe = 130 + stat;
+                    break;
+
                 case 151:
                     mName = "Mew";
                     mType = "mew";
@@ -806,6 +2617,14 @@ namespace ConsoleApp1
                     yeet[0] = new Attack("fire", num1 != 0 ? "phys" : "spec", fireMoves[num1], firePow[num1], firePP[num1], fireAccuracy[num1]);
                     yeet[1] = new Attack("flying", num2 == 1 ? "phys" : "spec", flyingMoves[num2], flyingPow[num2], flyingPP[num2], flyingAccuracy[num2]);
                     break;
+                case "electric/flying":
+                    yeet[0] = new Attack("electric", num1 != 0 ? "phys" : "spec", elecMoves[num1], elecPow[num1], elecPP[num1], elecAccuracy[num1]);
+                    yeet[1] = new Attack("flying", num2 == 1 ? "phys" : "spec", flyingMoves[num2], flyingPow[num2], flyingPP[num2], flyingAccuracy[num2]);
+                    break;
+                case "ice/flying":
+                    yeet[0] = new Attack("ice", num1 != 0 ? "phys" : "spec", iceMoves[num1], icePow[num1], icePP[num1], iceAccuracy[num1]);
+                    yeet[1] = new Attack("flying", num2 == 1 ? "phys" : "spec", flyingMoves[num2], flyingPow[num2], flyingPP[num2], flyingAccuracy[num2]);
+                    break;
                 case "rock/water":
                     yeet[0] = new Attack("water", num1 == 1 ? "phys" : "spec", waterMoves[num1], waterPow[num1], waterPP[num1], waterAccuracy[num1]);
                     yeet[1] = new Attack("rock", num2 <= 1 ? "phys" : "spec", rockMoves[num2], rockPow[num2], rockPP[num2], rockAccuracy[num2]);
@@ -814,7 +2633,7 @@ namespace ConsoleApp1
                     yeet[0] = new Attack("water", num1 == 1 ? "phys" : "spec", waterMoves[num1], waterPow[num1], waterPP[num1], waterAccuracy[num1]);
                     yeet[1] = new Attack("flying", num2 == 1 ? "phys" : "spec", flyingMoves[num2], flyingPow[num2], flyingPP[num2], flyingAccuracy[num2]);
                     break;
-                case "water/pyschic":
+                case "water/psychic":
                     yeet[0] = new Attack("water", num1 == 1 ? "phys" : "spec", waterMoves[num1], waterPow[num1], waterPP[num1], waterAccuracy[num1]);
                     yeet[1] = new Attack("psychic", num2 > 1 ? "phys" : "spec", psychicMoves[num2], psychicPow[num2], psychicPP[num2], psychicAccuracy[num2]);
                     yeet[2] = new Attack("psychic", num3 > 1 ? "phys" : "spec", psychicMoves[num3], psychicPow[num3], psychicPP[num3], psychicAccuracy[num3]);
@@ -826,7 +2645,7 @@ namespace ConsoleApp1
                     yeet[2] = new Attack("psychic", num3 > 1 ? "phys" : "spec", psychicMoves[num3], psychicPow[num3], psychicPP[num3], psychicAccuracy[num3]);
                     yeet[3] = new Attack("normal", "phys", normalMoves[num4], normalPow[num4], normalPP[num4], normalAccuracy[num4]);
                     break;
-                case "psyschic/fairy":
+                case "psychic/fairy":
                     yeet[0] = new Attack("fairy", num1 != 3 ? "phys" : "spec", fairyMoves[num1], fairyPow[num1], fairyPP[num1], fairyAccuracy[num1]);
                     yeet[1] = new Attack("psychic", num2 > 1 ? "phys" : "spec", psychicMoves[num2], psychicPow[num2], psychicPP[num2], psychicAccuracy[num2]);
                     yeet[2] = new Attack("psychic", num3 > 1 ? "phys" : "spec", psychicMoves[num3], psychicPow[num3], psychicPP[num3], psychicAccuracy[num3]);
