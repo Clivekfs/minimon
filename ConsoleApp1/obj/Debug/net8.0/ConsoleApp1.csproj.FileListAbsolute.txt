@@ -1,0 +1,28 @@
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Rafli\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+E:\kuliah\sem 3\PBO\ConsoleApp1 (2)\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
